@@ -28,6 +28,6 @@ def is_there_a_rhythm_in(verse, vowels_in_phrase):
         return False
 
 
-# winnie_pooh_verse = 'пара-ра-рам рам-пам-папам па-ра-па-да'
+# pooh_verse = 'пара-ра-рам рам-пам-папам па-ра-па-да'
 pooh_verse = input('Введите стих: ').lower()
 print('Парам пам-пам') if is_there_a_rhythm_in(pooh_verse, count_vowels) else print('Пам парам')
