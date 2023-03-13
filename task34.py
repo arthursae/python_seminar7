@@ -16,7 +16,7 @@
 def count_vowels(phrase, vowels={'а', 'я', 'у', 'ю', 'о', 'е', 'ё', 'э', 'и', 'ы'}):
     counter = 0
     for letter in phrase:
-        if letter in vowels:
+        if letter != '-' and letter in vowels:
             counter += 1
     return counter
 
